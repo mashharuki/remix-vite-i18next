@@ -7,8 +7,8 @@ The app showcase how to set remix-i18next to load the translations from an impor
 ## How to run
 
 ```bash
-npm install
-npm run dev
+yarn
+yarn dev
 ```
 
 Then open your browser and go to [http://localhost:3000](http://localhost:3000)

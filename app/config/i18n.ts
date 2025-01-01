@@ -2,10 +2,11 @@ import { serverOnly$ } from "vite-env-only/macros";
 
 import enTranslation from "~/locales/en";
 import esTranslation from "~/locales/es";
+import jaTranslation from "~/locales/ja";
 
 // This is the list of languages your application supports, the last one is your
 // fallback language
-export const supportedLngs = ["es", "en"];
+export const supportedLngs = ["es", "en", "ja"];
 
 // This is the language you want to use in case
 // the user language is not in the supportedLngs
@@ -17,4 +18,5 @@ export const defaultNS = "translation";
 export const resources = serverOnly$({
   en: { translation: enTranslation },
   es: { translation: esTranslation },
+  ja: { translation: jaTranslation },
 });
